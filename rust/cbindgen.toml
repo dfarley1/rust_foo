@@ -1,0 +1,13 @@
+language = "C"
+cpp_compat = true
+braces = "SameLine"
+line_length = 80
+tab_width = 4
+documentation_style = "c"
+style = "tag"
+include_guard = "_RUST_FOO_H"
+
+# Enable this once parse.expand is stable
+# https://github.com/eqrion/cbindgen/issues/621
+#[parse.expand]
+#crates = ["rust_foo"]
