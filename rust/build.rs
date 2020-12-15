@@ -44,6 +44,10 @@ fn do_cbindgen() {
         .parent()
         .unwrap()
         .parent()
+        .unwrap()
+        .parent()
+        .unwrap()
+        .parent()
         .unwrap();
     bindings.write_to_file(release_path.join("rust_cbindgen.h"));
 }

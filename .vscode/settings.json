@@ -7,6 +7,6 @@
     "rust-analyzer.procMacro.enable": true,
     "rust-analyzer.debug.engine": "ms-vscode.cpptools",
     "rust-analyzer.debug.openDebugPane": true,
-    "rust-analyzer.rustfmt.extraArgs": ["--config-path", "rustfmt.toml"],
+    "rust-analyzer.rustfmt.extraArgs": ["--config-path", "rust/rustfmt.toml"],
     "debug.allowBreakpointsEverywhere": true,
 }
